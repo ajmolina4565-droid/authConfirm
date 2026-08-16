@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Confirmed | KneeSense TS</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            background: linear-gradient(180deg, #A2E8ED 0%, #FFFFFF 100%);
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 50px 30px;
+            border-radius: 24px;
+            max-width: 400px;
+            border: 2px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 10px 25px rgba(23, 71, 75, 0.1);
+        }
+        h1 { color: #17474B; font-weight: 900; margin-bottom: 10px; }
+        p { color: #6C8588; line-height: 1.6; margin-bottom: 0; }
+        .success-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="success-icon">✅</span>
+        <h1>Account Verified!</h1>
+        <p>Your email has been successfully confirmed. You may now close this window and return to the KneeSense TS app to access your dashboard.</p>
+    </div>
+</body>
+</html>
